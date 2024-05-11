@@ -21,13 +21,13 @@ const NavBar = () => {
           transition={{ duration: 0.5 }}
           className="social"
         >
-          <a href="">
+          <a href="https://drive.google.com/file/d/1haeGMN9e8zFPSSwKmaarIQlFBI_sCEl-/view?usp=sharing" target="_blank">
             <img src="./cv.png" alt="resume" />
           </a>
-          <a href="">
+          <a href="https://github.com/SamSumanth6" target="_blank">
             <img src="./github.png" alt="github" />
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/sumanthv6/" target="_blank">
             <img src="./linkedin.png" alt="linkedIn" />
           </a>
           <a href="">
