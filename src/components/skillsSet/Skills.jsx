@@ -16,7 +16,7 @@ const Skills = () => {
 
   const containerVariants = {
     hidden: { opacity: 0 },
-    visible: { opacity: 1, transition: { delay: 0.5, delayChildren: 0.5, staggerChildren: 0.1 } },
+    visible: { opacity: 1, transition: { delay: 0.5, delayChildren: 0.5, staggerChildren: 0.2 } },
   };
 
   const itemVariants = {
