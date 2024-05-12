@@ -5,6 +5,7 @@ import Hero from "./components/hero/Hero";
 import Parallax from "./components/parallax/Parallax";
 import Skills from "./components/skillsSet/Skills";
 import Portfolio from "./components/portfolio/Portfolio";
+import Contact from "./components/contact/Contact";
 
 
 const App = () => {
@@ -25,7 +26,7 @@ const App = () => {
       </section>
       <Portfolio id="Portfolio"/>
       <section id="About">About</section>
-      <section id="Contact">Contact</section>
+      <section id="Contact"><Contact/></section>
     </div>
   );
 };
