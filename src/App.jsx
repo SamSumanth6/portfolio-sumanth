@@ -6,11 +6,13 @@ import Parallax from "./components/parallax/Parallax";
 import Skills from "./components/skillsSet/Skills";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
+import Cursor from "./components/cursor/Cursor";
 
 
 const App = () => {
   return (
     <div>
+      <Cursor/>
       <section id="Homepage">
         <NavBar />
         <Hero />
@@ -25,8 +27,11 @@ const App = () => {
         <Parallax type="portfolio" />
       </section>
       <Portfolio id="Portfolio"/>
-      <section id="About">About</section>
-      <section id="Contact"><Contact/></section>
+      {/* <section id="About">About</section> */}
+      <section id="Contact">
+        <Contact/>
+      </section>
+      
     </div>
   );
 };
