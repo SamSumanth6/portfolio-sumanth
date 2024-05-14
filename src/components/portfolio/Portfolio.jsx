@@ -19,9 +19,17 @@ const items = [
     img: "./qtrip.png",
     description:
       "QTrip, a travel website, caters to adventurers seeking diverse experiences in various cities. I crafted dynamic web pages using HTML, CSS, and JavaScript, enhancing UX with multi-select filters and image carousels. Leveraging localStorage for user preferences and fetch API for form submissions, I ensured seamless interactions. Deployment on Netlify/Vercel and Render showcases my commitment to delivering top-notch digital experiences.",
-    skills:
-      "HTML, CSS, JS, Bootstrap, REST APIs, JSON, DOM Manipulation, cURL",
+    skills: "HTML, CSS, JS, Bootstrap, REST APIs, JSON, DOM Manipulation, cURL",
     link: "https://qtrip-dynamicsam6-frontend.netlify.app/",
+  },
+  {
+    id: 3,
+    title: "QTify [still working]",
+    img: "./qtify.png",
+    description:
+    "Qtify is a dynamic music streaming application crafted with React.js. It offers seamless music playback, personalized playlists, and intuitive navigation. Users enjoy a vast library of tracks, curated playlists, and customizable preferences. Qtify delivers a modern and engaging music experience for all music enthusiasts.",
+    skills: "React.js, React Hooks, Bootstrap, REST APIs, JSON, DOM Manipulation",
+    link: "https://main--qtify6.netlify.app/",
   },
 ];
 
